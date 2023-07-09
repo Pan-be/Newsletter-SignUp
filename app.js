@@ -50,12 +50,24 @@ app.post("/", (req, res) => {
 	}
 
 	const request = https.request(url, options, (response) => {
+		// console.log(response.statusCode)
+
 		response.on("data", (data) => {
-			console.log(JSON.parse(data))
+			const dataObj = JSON.parse(data)
+
+			if (response.statusCode === 200 && dataObj.error_count === 0) {
+				res.sendFile(`${__dirname}/success.html`)
+			} else {
+				res.sendFile(`${__dirname}/failure.html`)
+			}
 		})
 	})
 	request.write(jsonData)
 	request.end()
+})
+
+app.post("/failure.html", (req, res) => {
+	res.redirect("/")
 })
 
 app.listen(3000, () => console.log("server is running on port 3000."))
