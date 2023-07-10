@@ -13,7 +13,7 @@ const app = express()
 const apiKey = process.env.API_KEY
 const listID = process.env.LIST_ID
 const server = process.env.SERVER
-const port = process.env.PORT
+let port = process.env.PORT
 
 app.use(bodyParser.urlencoded({ extended: true }))
 
