@@ -13,6 +13,7 @@ const app = express()
 const apiKey = process.env.API_KEY
 const listID = process.env.LIST_ID
 const server = process.env.SERVER
+const port = process.env.PORT
 
 app.use(bodyParser.urlencoded({ extended: true }))
 
@@ -70,4 +71,4 @@ app.post("/failure.html", (req, res) => {
 	res.redirect("/")
 })
 
-app.listen(3000, () => console.log("server is running on port 3000."))
+app.listen(port, () => console.log("server is running on port 3000."))
