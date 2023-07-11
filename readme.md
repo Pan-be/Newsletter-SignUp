@@ -1,5 +1,7 @@
 # Newsletter Signup
 
+<img src="public/images/SignUp.png">
+
 This is a Node.js application built with Express that allows users to sign up for your newsletter list. When a user signs up, their email is sent to a Mailchimp email list using the Mailchimp API. The app is deployed on Heroku, and you can visit the live demo [here](your-demo-link).
 
 ## Prerequisites
@@ -51,6 +53,12 @@ npm start
 ```
 
 The application will be accessible at `http://localhost:3000` by default.
+
+## Styling with Bootstrap
+The app is styled using Bootstrap, a popular CSS framework. Bootstrap provides a responsive layout and a variety of UI components, making it easy to create a visually appealing and user-friendly interface.
+
+## Dark and Light Mode
+This application offers both dark and light mode options for a personalized user experience. Users can switch between the two modes by clicking on the corresponding mode toggle button located [describe the location of the toggle button].
 
 ## Deployment
 
