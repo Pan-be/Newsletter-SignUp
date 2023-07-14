@@ -38,7 +38,7 @@ Create a `.env` file in the root directory of the project and add the following 
 ```plaintext
 API_KEY=your-mailchimp-api-key
 LIST_ID=your-mailchimp-list-id
-SERVER=21
+SERVER=your-mailchimp-server-number
 PORT=3000
 ```
 
