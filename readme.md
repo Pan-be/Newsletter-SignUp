@@ -42,7 +42,7 @@ SERVER=your-mailchimp-server-number
 PORT=3000
 ```
 
-Replace `your-mailchimp-api-key` with your Mailchimp API key and `your-mailchimp-list-id` with the ID of the email list you want to add subscribers to.
+Replace `your-mailchimp-api-key` with your Mailchimp API key, `your-mailchimp-list-id` with the ID of the email list you want to add subscribers to and `your-mailchimp-server-number` with the number of Mailchimp server.
 
 ## Usage
 
