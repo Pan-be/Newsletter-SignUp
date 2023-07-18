@@ -2,7 +2,7 @@
 
 <img src="public/images/SignUp.png">
 
-This is a Node.js application built with Express that allows users to sign up for your newsletter list. When a user signs up, their email is sent to a Mailchimp email list using the Mailchimp API. The app is deployed on Heroku, and you can visit the live demo [here]([your-demo-link](https://shrouded-inlet-73275-8436e9e5264b.herokuapp.com)).
+This is a Node.js application built with Express that allows users to sign up for your newsletter list. When a user signs up, their email is sent to a Mailchimp email list using the Mailchimp API. The app is deployed on Heroku, and you can visit the live demo [here](https://shrouded-inlet-73275-8436e9e5264b.herokuapp.com).
 
 ## Prerequisites
 
